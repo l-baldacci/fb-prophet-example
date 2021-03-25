@@ -9,6 +9,7 @@ df = pd.read_csv('/dbfs/FileStore/lorenzo.baldacci@databricks.com/example_wp_pey
 df['y'] = np.log(df['y'])
 df.head()
 
+
 # COMMAND ----------
 
 m = Prophet()
